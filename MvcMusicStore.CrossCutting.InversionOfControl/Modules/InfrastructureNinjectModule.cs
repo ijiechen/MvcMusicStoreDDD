@@ -1,5 +1,6 @@
-﻿using MvcMusicStore.Data.Context;
-using MvcMusicStore.Data.Context.Interfaces;
+﻿using JcSoft.Framework.Data.Context;
+using JcSoft.Framework.Data.Context.Interfaces;
+using MvcMusicStore.Data.Context;
 using Ninject.Modules;
 
 namespace MvcMusicStore.CrossCutting.InversionOfControl.Modules

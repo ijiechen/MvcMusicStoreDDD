@@ -1,7 +1,7 @@
-﻿using Microsoft.Practices.ServiceLocation;
-using MvcMusicStore.Application.Interfaces.Common;
-using MvcMusicStore.Data.Context.Interfaces;
-using MvcMusicStore.Domain.Validation;
+﻿using JcSoft.Framework.Application.Interfaces.Common;
+using JcSoft.Framework.Data.Context.Interfaces;
+using JcSoft.Framework.Domain.Validation;
+using Microsoft.Practices.ServiceLocation;
 
 namespace MvcMusicStore.Application
 {

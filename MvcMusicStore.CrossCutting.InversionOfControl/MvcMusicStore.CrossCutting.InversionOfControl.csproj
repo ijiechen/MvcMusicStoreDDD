@@ -85,6 +85,22 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\JcSoft.Framework.Application\JcSoft.Framework.Application.csproj">
+      <Project>{23DEDDD4-827E-400E-8C1B-518B461B9C1A}</Project>
+      <Name>JcSoft.Framework.Application</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JcSoft.Framework.Data.Context\JcSoft.Framework.Data.Context.csproj">
+      <Project>{0B44D148-6405-47AF-8F61-A2E56DEF1AE5}</Project>
+      <Name>JcSoft.Framework.Data.Context</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JcSoft.Framework.Data.Repository\JcSoft.Framework.Data.Repository.csproj">
+      <Project>{354F200A-0D6E-4A04-9887-85974F31C5DD}</Project>
+      <Name>JcSoft.Framework.Data.Repository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JcSoft.Framework.Domain\JcSoft.Framework.Domain.csproj">
+      <Project>{E9560945-24D2-419C-9DB5-18E6BEB1EED5}</Project>
+      <Name>JcSoft.Framework.Domain</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MvcMusicStore.Application\MvcMusicStore.Application.csproj">
       <Project>{e0a19f7d-70f0-4238-bb02-f13d4f640c97}</Project>
       <Name>MvcMusicStore.Application</Name>

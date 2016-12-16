@@ -1,5 +1,5 @@
-﻿using MvcMusicStore.Domain.Entities;
-using MvcMusicStore.Domain.Interfaces.Repository.Common;
+﻿using JcSoft.Framework.Domain.Interfaces.Repository.Common;
+using MvcMusicStore.Domain.Entities;
 
 namespace MvcMusicStore.Domain.Interfaces.Repository.ReadOnly
 {

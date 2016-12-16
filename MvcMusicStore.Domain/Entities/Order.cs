@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using JcSoft.Framework.Domain.Interfaces.Validation;
+using JcSoft.Framework.Domain.Validation;
 using MvcMusicStore.Domain.Entities.Validations;
-using MvcMusicStore.Domain.Interfaces.Validation;
-using MvcMusicStore.Domain.Validation;
 
 namespace MvcMusicStore.Domain.Entities
 {

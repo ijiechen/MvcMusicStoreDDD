@@ -2,10 +2,11 @@
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using JcSoft.Framework.Data.Context;
+using JcSoft.Framework.Data.Context.Interfaces;
 using Microsoft.Practices.ServiceLocation;
 using MvcMusicStore.AutoMapper;
 using MvcMusicStore.Data.Context;
-using MvcMusicStore.Data.Context.Interfaces;
 
 namespace MvcMusicStore
 {

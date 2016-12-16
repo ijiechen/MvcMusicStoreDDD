@@ -64,13 +64,21 @@
     <Compile Include="Interfaces\IOrderAppService.cs" />
     <Compile Include="Interfaces\ICartAppService.cs" />
     <Compile Include="Interfaces\IArtistAppService.cs" />
-    <Compile Include="Interfaces\Common\IBasicAppService.cs" />
-    <Compile Include="Interfaces\Common\IWriteOnlyAppService.cs" />
-    <Compile Include="Interfaces\Common\IReadOnlyAppService.cs" />
-    <Compile Include="Interfaces\Common\ITransactionAppService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\JcSoft.Framework.Application\JcSoft.Framework.Application.csproj">
+      <Project>{23DEDDD4-827E-400E-8C1B-518B461B9C1A}</Project>
+      <Name>JcSoft.Framework.Application</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JcSoft.Framework.Data.Context\JcSoft.Framework.Data.Context.csproj">
+      <Project>{0B44D148-6405-47AF-8F61-A2E56DEF1AE5}</Project>
+      <Name>JcSoft.Framework.Data.Context</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JcSoft.Framework.Domain\JcSoft.Framework.Domain.csproj">
+      <Project>{E9560945-24D2-419C-9DB5-18E6BEB1EED5}</Project>
+      <Name>JcSoft.Framework.Domain</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MvcMusicStore.Data.Context\MvcMusicStore.Data.Context.csproj">
       <Project>{1cfcf6c4-536e-4c6c-969a-2cd31f0dfa76}</Project>
       <Name>MvcMusicStore.Data.Context</Name>

@@ -1,9 +1,9 @@
-﻿using MvcMusicStore.Data.Repository.Dapper;
+﻿using JcSoft.Framework.Domain.Interfaces.Repository.Common;
+using MvcMusicStore.Data.Repository.Dapper;
 using MvcMusicStore.Data.Repository.EntityFramework;
 using MvcMusicStore.Data.Repository.EntityFramework.Common;
 using MvcMusicStore.Domain.Entities;
 using MvcMusicStore.Domain.Interfaces.Repository;
-using MvcMusicStore.Domain.Interfaces.Repository.Common;
 using MvcMusicStore.Domain.Interfaces.Repository.ReadOnly;
 using Ninject.Modules;
 

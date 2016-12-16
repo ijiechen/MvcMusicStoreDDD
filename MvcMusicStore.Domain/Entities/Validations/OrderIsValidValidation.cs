@@ -1,5 +1,5 @@
-﻿using MvcMusicStore.Domain.Entities.Specifications.OrderSpecs;
-using MvcMusicStore.Domain.Validation;
+﻿using JcSoft.Framework.Domain.Validation;
+using MvcMusicStore.Domain.Entities.Specifications.OrderSpecs;
 
 namespace MvcMusicStore.Domain.Entities.Validations
 {

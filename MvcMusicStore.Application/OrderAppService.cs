@@ -1,12 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
+using JcSoft.Framework.Domain.Validation;
 using MvcMusicStore.Application.Interfaces;
 using MvcMusicStore.Data.Context;
 using MvcMusicStore.Domain.Entities;
 using MvcMusicStore.Domain.Interfaces.Service;
-using MvcMusicStore.Domain.Services.Helpers;
-using MvcMusicStore.Domain.Validation;
 
 namespace MvcMusicStore.Application
 {

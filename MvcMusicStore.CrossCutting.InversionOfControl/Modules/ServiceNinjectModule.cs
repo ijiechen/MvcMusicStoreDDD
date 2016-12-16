@@ -1,7 +1,7 @@
-﻿using MvcMusicStore.Domain.Interfaces.Service;
-using MvcMusicStore.Domain.Interfaces.Service.Common;
+﻿using JcSoft.Framework.Domain.Interfaces.Service.Common;
+using JcSoft.Framework.Domain.Services.Common;
+using MvcMusicStore.Domain.Interfaces.Service;
 using MvcMusicStore.Domain.Services;
-using MvcMusicStore.Domain.Services.Common;
 using Ninject.Modules;
 
 namespace MvcMusicStore.CrossCutting.InversionOfControl.Modules

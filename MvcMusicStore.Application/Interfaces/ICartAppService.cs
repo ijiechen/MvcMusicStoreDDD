@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using MvcMusicStore.Application.Interfaces.Common;
+using JcSoft.Framework.Application.Interfaces.Common;
+using JcSoft.Framework.Domain.Validation;
 using MvcMusicStore.Domain.Entities;
-using MvcMusicStore.Domain.Validation;
 
 namespace MvcMusicStore.Application.Interfaces
 {

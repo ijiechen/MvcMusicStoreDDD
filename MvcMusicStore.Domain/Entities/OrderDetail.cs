@@ -1,6 +1,6 @@
-﻿using MvcMusicStore.Domain.Entities.Validations;
-using MvcMusicStore.Domain.Interfaces.Validation;
-using MvcMusicStore.Domain.Validation;
+﻿using JcSoft.Framework.Domain.Interfaces.Validation;
+using JcSoft.Framework.Domain.Validation;
+using MvcMusicStore.Domain.Entities.Validations;
 
 namespace MvcMusicStore.Domain.Entities
 {

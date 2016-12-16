@@ -1,5 +1,6 @@
 ﻿using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
+using JcSoft.Framework.Data.Context.Config;
 using MvcMusicStore.Data.Context.Config;
 using MvcMusicStore.Data.Context.Mapping;
 using MvcMusicStore.Domain.Entities;

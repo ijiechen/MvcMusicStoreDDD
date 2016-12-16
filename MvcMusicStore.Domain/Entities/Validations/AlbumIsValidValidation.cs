@@ -1,5 +1,5 @@
-﻿using MvcMusicStore.Domain.Entities.Specifications.AlbumSpecs;
-using MvcMusicStore.Domain.Validation;
+﻿using JcSoft.Framework.Domain.Validation;
+using MvcMusicStore.Domain.Entities.Specifications.AlbumSpecs;
 
 namespace MvcMusicStore.Domain.Entities.Validations
 {

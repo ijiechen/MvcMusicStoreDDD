@@ -1,5 +1,5 @@
-﻿using MvcMusicStore.Domain.Entities;
-using MvcMusicStore.Domain.Interfaces.Service.Common;
+﻿using JcSoft.Framework.Domain.Interfaces.Service.Common;
+using MvcMusicStore.Domain.Entities;
 
 namespace MvcMusicStore.Domain.Interfaces.Service
 {
